@@ -199,7 +199,33 @@ transform: scale(1.05) perspective(1px);
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+    /* flex-direction: column; */
 }
+
+.spotify-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #264275;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(224.24, 84%, 46%) 0, transparent 55%);
+}
+
+
+
+
+.spotify-wrapped{
+    width:  40%;
+    height: 90vh;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    
+}
+
 
 .cta {
     display: flex;
