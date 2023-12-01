@@ -6,6 +6,7 @@
     color: #fff;
 }
 
+
 a{
     cursor: pointer;
 }
@@ -77,6 +78,38 @@ li > a:hover::after{
     line-height: 1.5;
     
 }
+
+@media screen and (max-width: 500px) {
+    .home > .first-container > .first-para {
+      width: 100%;
+    }
+
+    .home > .first-container > .second-para{
+        margin-top: 0;
+    }
+
+    .iframe{
+        width: 50%;
+        height: 100;
+    }
+    .iframe2, .iframe3{
+        display: none;
+    }
+
+    .iframe > .text{
+        display: none;
+    }
+
+    .playlists-text ~ .spotify-playlists{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    
+    }
+  }
+
 
 .home > .first-container > .second-para{
     margin-top: 110px;
@@ -167,6 +200,7 @@ transform: scale(1.05) perspective(1px);
     padding: 30px;
 }
 
+
 .quote {
     color: #f2f4f7;
     font-size: 26px;
@@ -250,10 +284,60 @@ transform: scale(1.05) perspective(1px);
 /*Footer Sect*/
 .footer {
     color:#3c424e;
+    padding: 20px;
     font-size: 12px;
     background: rgba(0, 0, 0, 0.486);
-    padding: 20px;
     display: flex;
     justify-content: center;
 }
+
+.hamburger-menu{
+    display: none;
+}
+
+@media screen and (max-width: 1340px) {
+    .music-image {
+      display: none;
+    }
+  }
+  
+
+@media screen and (max-width: 1440px) {
+    .spotify-playlists {
+      padding: 20px;
+    }
+  }
+
+
+@media screen and (max-width: 771px) {
+    .logo-container > .logo{
+        width: 50%;
+        
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .logo-container > .logo{
+        width: 25%;
+        
+        
+    }
+   
+
+    .hamburger-menu{
+        display: inline;
+        height: 20vh;
+        width: 10vw;
+    }
+
+    .list-item{
+        display: none;
+    }
+
+    .header{
+        height: 15vh;
+    }
+    
+  }
+  
 
