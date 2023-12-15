@@ -307,43 +307,17 @@ transform: scale(1.05) perspective(1px);
       padding: 20px;
     }
 
-    .cta-bg{
-        height: 60vh;
-    }
-
-    .cta{
-        width: 88%;
-        height: 30vh;
-        
-    }
-
-    .spotify-container{
-        height: 60vh;
-       
-    }
-
-    .spotify-wrapped{
-        width: 88%;
-        height: 50vh;
-       
-        
-    }
-
     .footer{
-        height: 10vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 1.5em;   
+        font-size: 1em;
+         
     }
 
-    .header{
-        height: 10vh;
-    }
 
-    body{
-        font-size: 1.5em;
-    }
+
+   
   }
 
 
