@@ -306,6 +306,44 @@ transform: scale(1.05) perspective(1px);
     .spotify-playlists {
       padding: 20px;
     }
+
+    .cta-bg{
+        height: 60vh;
+    }
+
+    .cta{
+        width: 88%;
+        height: 30vh;
+        
+    }
+
+    .spotify-container{
+        height: 60vh;
+       
+    }
+
+    .spotify-wrapped{
+        width: 88%;
+        height: 50vh;
+       
+        
+    }
+
+    .footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;   
+    }
+
+    .header{
+        height: 10vh;
+    }
+
+    body{
+        font-size: 1.5em;
+    }
   }
 
 
@@ -313,6 +351,41 @@ transform: scale(1.05) perspective(1px);
     .logo-container > .logo{
         width: 50%;
         
+    }
+
+    .cta-bg{
+        height: 60vh;
+    }
+
+    .cta{
+        width: 88%;
+        height: 30vh;
+        
+    }
+
+    .spotify-container{
+        height: 60vh;
+    }
+
+    .spotify-wrapped{
+        width: 88%;
+        height: 50vh;
+        
+    }
+    .footer{
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5em;  
+    }
+
+    .header{
+        height: 10vh;
+    }
+
+    body{
+        font-size: 1.5em;
     }
   }
 
@@ -336,6 +409,28 @@ transform: scale(1.05) perspective(1px);
 
     .header{
         height: 15vh;
+    }
+
+    .cta-bg{
+        height: 60vh;
+    }
+
+    .cta{
+        width: 88%;
+        height: 50vh;
+    }
+
+    .spotify-container{
+        height: 60vh;
+    }
+
+    .spotify-wrapped{
+        width: 88%;
+        height: 50vh;
+    }
+
+    body{
+        font-size: 1em;
     }
     
   }
